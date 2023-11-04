@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9859e732-50b3-4721-8432-20f4424af8d2}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>GUI.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="IMAGE\account.png" />
+    <Content Include="IMAGE\Add_Button.png" />
+    <Content Include="IMAGE\Add_element_button.png" />
+    <Content Include="IMAGE\Back_button.png" />
+    <Content Include="IMAGE\bill.png" />
+    <Content Include="IMAGE\business-report.png" />
+    <Content Include="IMAGE\Change_button.png" />
+    <Content Include="IMAGE\change_password.png" />
+    <Content Include="IMAGE\Delete_button.png" />
+    <Content Include="IMAGE\detail.png" />
+    <Content Include="IMAGE\excel.png" />
+    <Content Include="IMAGE\Exit_button.png" />
+    <Content Include="IMAGE\list.png" />
+    <Content Include="IMAGE\list_icon.png" />
+    <Content Include="IMAGE\Login_button.png" />
+    <Content Include="IMAGE\logout.png" />
+    <Content Include="IMAGE\Quit_button.png" />
+    <Content Include="IMAGE\regular.png" />
+    <Content Include="IMAGE\Save_button.png" />
+    <Content Include="IMAGE\Search.png" />
+    <Content Include="IMAGE\TrangChinh.png" />
+    <Content Include="IMAGE\TrangDangNhap.png" />
+    <Content Include="IMAGE\UITLogo.png" />
+    <Content Include="IMAGE\Update_button.png" />
+    <Content Include="IMAGE\Update_element_button.png" />
+    <Content Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL.py" />
+    <Compile Include="DAL.py" />
+    <Compile Include="DTO.py" />
+    <Compile Include="GUI.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IMAGE" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
